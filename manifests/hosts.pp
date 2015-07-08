@@ -3,11 +3,6 @@ host { 'aslan':
   ip     => '10.0.1.11',
 }
 
-host { 'clu':
-  ensure => 'present',
-  ip     => '10.0.1.30',
-}
-
 host { 'donna-pc':
   ensure => 'present',
   ip     => '10.0.1.6',

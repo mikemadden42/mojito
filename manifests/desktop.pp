@@ -58,6 +58,7 @@ $packages = [
   'puppet-lint',
   'pxz',
   'pychecker',
+  'pylint',
   'python',
   'python-boto',
   'python-jinja2',
