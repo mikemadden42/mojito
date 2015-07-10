@@ -6,6 +6,8 @@ $packages = [
   'libcurl4-openssl-dev',
   'libssl-dev',
   'libyaml-cpp-dev',
+  'tar',
+  'wget',
 ]
 
 package { $packages:
