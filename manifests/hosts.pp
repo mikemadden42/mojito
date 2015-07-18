@@ -20,5 +20,5 @@ host { 'printer':
 
 host { 'zuse':
   ensure => 'present',
-  ip     => '10.0.1.27',
+  ip     => '10.0.1.37',
 }
