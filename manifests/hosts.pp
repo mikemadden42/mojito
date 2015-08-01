@@ -18,6 +18,11 @@ host { 'printer':
   ip     => '10.0.1.10',
 }
 
+host { 'router':
+  ensure => 'present',
+  ip     => '10.0.1.1',
+}
+
 host { 'zuse':
   ensure => 'present',
   ip     => '10.0.1.37',
