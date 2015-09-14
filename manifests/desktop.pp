@@ -24,7 +24,7 @@ $packages = [
   'golang-go.tools',
   'grep',
   'gzip',
-  'handbrake',
+  'handbrake-gtk',
   'iotop',
   'jmtpfs',
   'ksh',
