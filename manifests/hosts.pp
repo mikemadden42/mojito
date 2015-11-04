@@ -5,12 +5,12 @@ host { 'aslan':
 
 host { 'donna-pc':
   ensure => 'present',
-  ip     => '10.0.1.6',
+  ip     => '10.0.1.19',
 }
 
-host { 'link':
+host { 'clu':
   ensure => 'present',
-  ip     => '10.0.1.19',
+  ip     => '10.0.1.6',
 }
 
 host { 'printer':
