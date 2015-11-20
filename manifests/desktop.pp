@@ -26,6 +26,7 @@ $packages = [
   'gzip',
   'handbrake-gtk',
   'iotop',
+  'ipython',
   'jmtpfs',
   'ksh',
   'less',
