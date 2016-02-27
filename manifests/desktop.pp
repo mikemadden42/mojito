@@ -75,7 +75,6 @@ $packages = [
   'sed',
   'sound-juicer',
   'strace',
-  'sublime-text',
   'subversion',
   'sudo',
   'tar',
