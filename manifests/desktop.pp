@@ -33,6 +33,8 @@ $packages = [
   'lftp',
   'libglib2.0-dev',
   'libpod-pseudopod-perl',
+  'libsdl2-dev',
+  'libsdl2-ttf-dev',
   'libxss1',
   'lsof',
   'make',
