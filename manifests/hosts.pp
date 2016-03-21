@@ -8,9 +8,14 @@ host { 'clu':
   ip     => '10.0.1.6',
 }
 
+host { 'express':
+  ensure => 'present',
+  ip     => '10.0.1.17',
+}
+
 host { 'printer':
   ensure => 'present',
-  ip     => '10.0.1.10',
+  ip     => '10.0.1.5',
 }
 
 host { 'router':
