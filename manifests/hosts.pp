@@ -1,6 +1,6 @@
 host { 'aslan':
   ensure => 'present',
-  ip     => '10.0.1.11',
+  ip     => '10.0.1.14',
 }
 
 host { 'clu':
