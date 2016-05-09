@@ -15,3 +15,8 @@ $packages = [
 package { $packages:
   ensure => 'installed',
 }
+
+file { '/usr/sbin/update-alternatives':
+  ensure => 'link',
+  target => '/usr/bin/update-alternatives',
+}
