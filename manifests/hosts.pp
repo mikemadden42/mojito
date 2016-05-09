@@ -5,17 +5,17 @@ host { 'aslan':
 
 host { 'clu':
   ensure => 'present',
-  ip     => '10.0.1.6',
+  ip     => '10.0.1.10',
 }
 
 host { 'express':
   ensure => 'present',
-  ip     => '10.0.1.17',
+  ip     => '10.0.1.2',
 }
 
 host { 'printer':
   ensure => 'present',
-  ip     => '10.0.1.5',
+  ip     => '10.0.1.4',
 }
 
 host { 'router':
