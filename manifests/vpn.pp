@@ -1,5 +1,5 @@
 $packages = [
-  'icedtea-7-plugin',
+  'icedtea-8-plugin',
   'lib32bz2-1.0',
   'lib32ncurses5',
   'lib32z1',
