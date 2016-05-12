@@ -5,7 +5,7 @@ host { 'aslan':
 
 host { 'clu':
   ensure => 'present',
-  ip     => '10.0.1.10',
+  ip     => '10.0.1.13',
 }
 
 host { 'express':
