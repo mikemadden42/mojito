@@ -1,5 +1,6 @@
 $packages = [
-  'bcmwl-kernel-source',
+  'broadcom-sta-dkms',
+  'firmware-realtek',
   'dkms',
 ]
 
