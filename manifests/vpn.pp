@@ -12,7 +12,7 @@ $packages = [
 ]
 
 package { $packages:
-  ensure => 'installed',
+  ensure => 'present',
 }
 
 file { '/usr/sbin/update-alternatives':

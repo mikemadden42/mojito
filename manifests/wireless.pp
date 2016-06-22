@@ -5,5 +5,5 @@ $packages = [
 ]
 
 package { $packages:
-  ensure => 'installed',
+  ensure => 'present',
 }
