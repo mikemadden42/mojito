@@ -1,9 +1,8 @@
 $packages = [
-  'broadcom-sta-dkms',
-  'firmware-realtek',
+  'bcmwl-kernel-source',
   'dkms',
 ]
 
 package { $packages:
-  ensure => 'present',
+  ensure => 'installed',
 }
