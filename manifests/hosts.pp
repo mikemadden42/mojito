@@ -1,6 +1,6 @@
 host { 'aslan':
   ensure => 'present',
-  ip     => '10.0.1.14',
+  ip     => '10.0.1.12',
 }
 
 host { 'clu':
@@ -10,7 +10,12 @@ host { 'clu':
 
 host { 'express':
   ensure => 'present',
-  ip     => '10.0.1.2',
+  ip     => '10.0.1.6',
+}
+
+host { 'pi':
+  ensure => 'present',
+  ip     => '10.0.1.14',
 }
 
 host { 'printer':
