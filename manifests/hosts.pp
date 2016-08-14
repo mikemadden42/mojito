@@ -3,9 +3,9 @@ host { 'aslan':
   ip     => '10.0.1.12',
 }
 
-host { 'clu':
+host { 'kali':
   ensure => 'present',
-  ip     => '10.0.1.13',
+  ip     => '10.0.1.24',
 }
 
 host { 'express':
