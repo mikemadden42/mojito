@@ -5,7 +5,7 @@ host { 'aslan':
 
 host { 'kali':
   ensure => 'present',
-  ip     => '10.0.1.24',
+  ip     => '10.0.1.28',
 }
 
 host { 'express':
@@ -13,7 +13,7 @@ host { 'express':
   ip     => '10.0.1.6',
 }
 
-host { 'pi':
+host { 'trenton':
   ensure => 'present',
   ip     => '10.0.1.14',
 }
@@ -28,7 +28,7 @@ host { 'router':
   ip     => '10.0.1.1',
 }
 
-host { 'zuse':
+host { 'dom':
   ensure => 'present',
   ip     => '10.0.1.37',
 }
