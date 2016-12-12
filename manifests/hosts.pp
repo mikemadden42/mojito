@@ -1,16 +1,16 @@
 host { 'aslan':
   ensure => 'present',
-  ip     => '10.0.1.12',
+  ip     => '10.0.1.11',
 }
 
-host { 'kali':
+host { 'romero':
   ensure => 'present',
-  ip     => '10.0.1.28',
+  ip     => '10.0.1.13',
 }
 
 host { 'express':
   ensure => 'present',
-  ip     => '10.0.1.6',
+  ip     => '10.0.1.5',
 }
 
 host { 'trenton':
