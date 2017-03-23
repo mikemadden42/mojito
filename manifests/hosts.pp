@@ -15,7 +15,7 @@ host { 'express':
 
 host { 'trenton':
   ensure => 'present',
-  ip     => '10.0.1.14',
+  ip     => '10.0.1.21',
 }
 
 host { 'printer':
