@@ -33,6 +33,11 @@ host { 'dom':
   ip     => '10.0.1.37',
 }
 
+host { 'durango':
+  ensure => 'present',
+  ip     => '10.0.1.41',
+}
+
 host { 'venus':
   ensure => 'present',
   ip     => '198.98.108.12',
