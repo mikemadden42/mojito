@@ -1,26 +1,16 @@
-host { 'aslan':
-  ensure => 'present',
-  ip     => '10.0.1.19',
-}
-
-host { 'romero':
+host { 'mesa':
   ensure => 'present',
   ip     => '10.0.1.13',
 }
 
 host { 'express':
   ensure => 'present',
-  ip     => '10.0.1.15',
-}
-
-host { 'trenton':
-  ensure => 'present',
-  ip     => '10.0.1.21',
+  ip     => '10.0.1.6',
 }
 
 host { 'printer':
   ensure => 'present',
-  ip     => '10.0.1.4',
+  ip     => '10.0.1.8',
 }
 
 host { 'router':
@@ -35,7 +25,7 @@ host { 'dom':
 
 host { 'durango':
   ensure => 'present',
-  ip     => '10.0.1.41',
+  ip     => '10.0.1.17',
 }
 
 host { 'venus':
