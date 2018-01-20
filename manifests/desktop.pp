@@ -57,6 +57,7 @@ $packages = [
   'pbzip2',
   'perl',
   'perltidy',
+  'pidgin',
   'pigz',
   'pod2pdf',
   'procps',

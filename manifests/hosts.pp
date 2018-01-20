@@ -5,7 +5,7 @@ host { 'mesa':
 
 host { 'express':
   ensure => 'present',
-  ip     => '10.0.1.6',
+  ip     => '10.0.1.2',
 }
 
 host { 'printer':
@@ -18,7 +18,7 @@ host { 'router':
   ip     => '10.0.1.1',
 }
 
-host { 'dom':
+host { 'aspen':
   ensure => 'present',
   ip     => '10.0.1.37',
 }
@@ -26,6 +26,11 @@ host { 'dom':
 host { 'durango':
   ensure => 'present',
   ip     => '10.0.1.17',
+}
+
+host { 'keystone':
+  ensure => 'present',
+  ip     => '10.0.1.48',
 }
 
 host { 'venus':
