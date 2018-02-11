@@ -1,6 +1,6 @@
 host { 'mesa':
   ensure => 'present',
-  ip     => '10.0.1.13',
+  ip     => '10.0.1.21',
 }
 
 host { 'express':
@@ -10,7 +10,7 @@ host { 'express':
 
 host { 'printer':
   ensure => 'present',
-  ip     => '10.0.1.8',
+  ip     => '10.0.1.3',
 }
 
 host { 'router':
