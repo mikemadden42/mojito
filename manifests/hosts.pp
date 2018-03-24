@@ -20,7 +20,7 @@ host { 'router':
 
 host { 'aspen':
   ensure => 'present',
-  ip     => '10.0.1.37',
+  ip     => '10.0.1.19',
 }
 
 host { 'durango':
