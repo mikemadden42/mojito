@@ -1,36 +1,36 @@
 host { 'mesa':
   ensure => 'present',
-  ip     => '10.0.1.21',
+  ip     => '192.168.18.8',
 }
 
 host { 'express':
   ensure => 'present',
-  ip     => '10.0.1.2',
+  ip     => '192.168.18.3',
 }
 
 host { 'printer':
   ensure => 'present',
-  ip     => '10.0.1.3',
+  ip     => '192.168.18.7',
 }
 
 host { 'router':
   ensure => 'present',
-  ip     => '10.0.1.1',
+  ip     => '192.168.18.1',
 }
 
 host { 'aspen':
   ensure => 'present',
-  ip     => '10.0.1.19',
+  ip     => '192.168.18.11',
 }
 
 host { 'durango':
   ensure => 'present',
-  ip     => '10.0.1.17',
+  ip     => '192.168.18.6',
 }
 
 host { 'keystone':
   ensure => 'present',
-  ip     => '10.0.1.48',
+  ip     => '192.168.18.9',
 }
 
 host { 'venus':
