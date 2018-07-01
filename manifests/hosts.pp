@@ -33,7 +33,12 @@ host { 'keystone':
   ip     => '192.168.18.9',
 }
 
-host { 'venus':
+host { 'pi':
   ensure => 'present',
+  ip     => '192.168.18.26',
+}
+
+host { 'venus':
+  ensure => 'absent',
   ip     => '198.98.108.12',
 }
