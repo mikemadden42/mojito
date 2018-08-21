@@ -10,7 +10,7 @@ host { 'express':
 
 host { 'printer':
   ensure => 'present',
-  ip     => '192.168.18.7',
+  ip     => '192.168.18.5',
 }
 
 host { 'router':
@@ -20,22 +20,22 @@ host { 'router':
 
 host { 'aspen':
   ensure => 'present',
-  ip     => '192.168.18.11',
+  ip     => '192.168.18.17',
 }
 
 host { 'durango':
   ensure => 'present',
-  ip     => '192.168.18.6',
+  ip     => '192.168.18.15',
 }
 
 host { 'keystone':
   ensure => 'present',
-  ip     => '192.168.18.9',
+  ip     => '192.168.18.25',
 }
 
 host { 'pi':
   ensure => 'present',
-  ip     => '192.168.18.26',
+  ip     => '192.168.18.28',
 }
 
 host { 'venus':
