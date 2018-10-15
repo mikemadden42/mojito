@@ -14,7 +14,7 @@ $packages = [
   'cpio',
   'curl',
   'dmidecode',
-  'firefox-esr',
+  'firefox',
   'fping',
   'g++',
   'gawk',
