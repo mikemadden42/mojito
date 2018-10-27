@@ -5,12 +5,12 @@ host { 'mesa':
 
 host { 'express':
   ensure => 'present',
-  ip     => '192.168.18.3',
+  ip     => '192.168.18.17',
 }
 
 host { 'printer':
   ensure => 'present',
-  ip     => '192.168.18.5',
+  ip     => '192.168.18.21',
 }
 
 host { 'router':
@@ -20,7 +20,7 @@ host { 'router':
 
 host { 'aspen':
   ensure => 'present',
-  ip     => '192.168.18.17',
+  ip     => '192.168.18.22',
 }
 
 host { 'durango':
@@ -30,7 +30,7 @@ host { 'durango':
 
 host { 'keystone':
   ensure => 'present',
-  ip     => '192.168.18.25',
+  ip     => '192.168.18.29',
 }
 
 host { 'pi':
