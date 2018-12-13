@@ -5,7 +5,7 @@ host { 'mesa':
 
 host { 'express':
   ensure => 'present',
-  ip     => '192.168.18.17',
+  ip     => '192.168.18.2',
 }
 
 host { 'printer':
@@ -20,7 +20,7 @@ host { 'router':
 
 host { 'aspen':
   ensure => 'present',
-  ip     => '192.168.18.22',
+  ip     => '192.168.18.4',
 }
 
 host { 'durango':
