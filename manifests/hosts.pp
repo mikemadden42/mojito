@@ -1,6 +1,6 @@
 host { 'mesa':
   ensure => 'present',
-  ip     => '192.168.18.8',
+  ip     => '192.168.18.14',
 }
 
 host { 'express':
@@ -30,7 +30,7 @@ host { 'durango':
 
 host { 'keystone':
   ensure => 'present',
-  ip     => '192.168.18.29',
+  ip     => '192.168.18.23',
 }
 
 host { 'pi':
