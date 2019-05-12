@@ -1,16 +1,16 @@
 host { 'mesa':
   ensure => 'present',
-  ip     => '192.168.18.14',
+  ip     => '192.168.18.17',
 }
 
 host { 'express':
   ensure => 'present',
-  ip     => '192.168.18.2',
+  ip     => '192.168.18.3',
 }
 
 host { 'printer':
   ensure => 'present',
-  ip     => '192.168.18.21',
+  ip     => '192.168.18.2',
 }
 
 host { 'router':
@@ -21,6 +21,11 @@ host { 'router':
 host { 'aspen':
   ensure => 'present',
   ip     => '192.168.18.4',
+}
+
+host { 'rocky':
+  ensure => 'present',
+  ip     => '192.168.18.8',
 }
 
 host { 'durango':
