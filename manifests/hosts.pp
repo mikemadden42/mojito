@@ -18,11 +18,6 @@ host { 'router':
   ip     => '192.168.18.1',
 }
 
-host { 'aspen':
-  ensure => 'present',
-  ip     => '192.168.18.4',
-}
-
 host { 'rocky':
   ensure => 'present',
   ip     => '192.168.18.8',
@@ -36,14 +31,4 @@ host { 'durango':
 host { 'keystone':
   ensure => 'present',
   ip     => '192.168.18.23',
-}
-
-host { 'pi':
-  ensure => 'present',
-  ip     => '192.168.18.28',
-}
-
-host { 'venus':
-  ensure => 'absent',
-  ip     => '198.98.108.12',
 }
