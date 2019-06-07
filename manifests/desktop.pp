@@ -26,6 +26,7 @@ $packages = [
   'handbrake',
   'iotop',
   'ipython',
+  'keepassxc',
   'ksh',
   'less',
   'lftp',
